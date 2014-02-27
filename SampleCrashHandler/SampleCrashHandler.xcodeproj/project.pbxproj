@@ -22,7 +22,6 @@
 		5380BA2118BF3E9E00BA8573 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5380BA1F18BF3E9E00BA8573 /* InfoPlist.strings */; };
 		5380BA2318BF3E9E00BA8573 /* SampleCrashHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5380BA2218BF3E9E00BA8573 /* SampleCrashHandlerTests.m */; };
 		5380BA2F18BF3F8E00BA8573 /* CrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5380BA2E18BF3F8E00BA8573 /* CrashHandler.m */; };
-		5380BA3118BF3FE200BA8573 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380BA3018BF3FE200BA8573 /* Parse.framework */; };
 		5380BA3318BF404A00BA8573 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380BA3218BF404A00BA8573 /* AudioToolbox.framework */; };
 		5380BA3518BF404E00BA8573 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380BA3418BF404E00BA8573 /* CFNetwork.framework */; };
 		5380BA3718BF405B00BA8573 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380BA3618BF405B00BA8573 /* CoreLocation.framework */; };
@@ -32,6 +31,7 @@
 		5380BA3F18BF408200BA8573 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380BA3E18BF408200BA8573 /* Security.framework */; };
 		5380BA4118BF40AB00BA8573 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380BA4018BF40AB00BA8573 /* StoreKit.framework */; };
 		5380BA4318BF40B600BA8573 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380BA4218BF40B600BA8573 /* SystemConfiguration.framework */; };
+		53A0E03918BF52060082CEC6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0E03818BF52050082CEC6 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,6 @@
 		5380BA2218BF3E9E00BA8573 /* SampleCrashHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleCrashHandlerTests.m; sourceTree = "<group>"; };
 		5380BA2D18BF3F8E00BA8573 /* CrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashHandler.h; sourceTree = "<group>"; };
 		5380BA2E18BF3F8E00BA8573 /* CrashHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashHandler.m; sourceTree = "<group>"; };
-		5380BA3018BF3FE200BA8573 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		5380BA3218BF404A00BA8573 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5380BA3418BF404E00BA8573 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5380BA3618BF405B00BA8573 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -76,6 +75,7 @@
 		5380BA3E18BF408200BA8573 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5380BA4018BF40AB00BA8573 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5380BA4218BF40B600BA8573 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53A0E03818BF52050082CEC6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +89,12 @@
 				5380BA3D18BF407900BA8573 /* QuartzCore.framework in Frameworks */,
 				5380BA3B18BF407100BA8573 /* MobileCoreServices.framework in Frameworks */,
 				5380BA3918BF406600BA8573 /* libz.dylib in Frameworks */,
+				53A0E03918BF52060082CEC6 /* Parse.framework in Frameworks */,
 				5380BA3718BF405B00BA8573 /* CoreLocation.framework in Frameworks */,
 				5380BA3518BF404E00BA8573 /* CFNetwork.framework in Frameworks */,
 				5380BA3318BF404A00BA8573 /* AudioToolbox.framework in Frameworks */,
 				5380B9FA18BF3E9D00BA8573 /* CoreGraphics.framework in Frameworks */,
 				5380B9FC18BF3E9D00BA8573 /* UIKit.framework in Frameworks */,
-				5380BA3118BF3FE200BA8573 /* Parse.framework in Frameworks */,
 				5380B9F818BF3E9D00BA8573 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +134,7 @@
 		5380B9F618BF3E9D00BA8573 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				53A0E03818BF52050082CEC6 /* Parse.framework */,
 				5380BA4218BF40B600BA8573 /* SystemConfiguration.framework */,
 				5380BA4018BF40AB00BA8573 /* StoreKit.framework */,
 				5380BA3E18BF408200BA8573 /* Security.framework */,
@@ -143,7 +144,6 @@
 				5380BA3618BF405B00BA8573 /* CoreLocation.framework */,
 				5380BA3418BF404E00BA8573 /* CFNetwork.framework */,
 				5380BA3218BF404A00BA8573 /* AudioToolbox.framework */,
-				5380BA3018BF3FE200BA8573 /* Parse.framework */,
 				5380B9F718BF3E9D00BA8573 /* Foundation.framework */,
 				5380B9F918BF3E9D00BA8573 /* CoreGraphics.framework */,
 				5380B9FB18BF3E9D00BA8573 /* UIKit.framework */,
@@ -436,6 +436,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/arshadtp/Documents/GitHub/CrashHandler/SampleCrashHandler,
+					/Users/arshadtp/Documents/GitHub/CrashHandler/CrashHandler/SampleCrashHandler,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleCrashHandler/SampleCrashHandler-Prefix.pch";
@@ -454,6 +455,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/arshadtp/Documents/GitHub/CrashHandler/SampleCrashHandler,
+					/Users/arshadtp/Documents/GitHub/CrashHandler/CrashHandler/SampleCrashHandler,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleCrashHandler/SampleCrashHandler-Prefix.pch";
