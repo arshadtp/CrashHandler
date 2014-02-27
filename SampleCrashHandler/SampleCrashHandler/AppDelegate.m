@@ -16,8 +16,8 @@
 {
 	
 	// Setting up parse
-	[Parse setApplicationId:@"HHfdzXDZDS3L41aYfK2AvHgFCWvpLFScYoBcG57h"
-				  clientKey:@"uVgB8x6vAN1PkDbRQXyE3fcNOGCPe8XOFfP85UUb"];
+	[Parse setApplicationId:@"your application id"
+				  clientKey:@"client key"];
 	[PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 	
 	//Enabling crash reporting
